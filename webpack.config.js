@@ -8,7 +8,7 @@ module.exports = {
   },
   output: {
     path: path.join(__dirname, 'build'),
-    // libraryTarget: 'amd',
+    libraryTarget: 'umd',
     filename: '[name].bundle.js',
   },
   module: {
