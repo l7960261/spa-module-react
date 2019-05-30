@@ -1,4 +1,5 @@
 const path = require('path');
+const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
@@ -6,7 +7,7 @@ module.exports = {
   },
   output: {
     filename: 'bundle.js',
-    path: path.resolve(__dirname, './')
+    path: path.resolve(__dirname, './dist')
   },
   module: {
     rules: [
@@ -16,5 +17,8 @@ module.exports = {
         loader: 'babel-loader',
       },
     ]
-  }
+  },
+  plugins: [
+    new CleanWebpackPlugin(),
+  ]
 };
