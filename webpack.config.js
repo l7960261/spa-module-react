@@ -3,17 +3,19 @@ const CleanWebpackPlugin = require('clean-webpack-plugin');
 
 module.exports = {
   entry: {
-    index: './src/index.js'
+    index: path.join(__dirname, 'src', 'index.js'),
+    singleSpa: path.join(__dirname, 'src', 'index.single-spa.js')
   },
   output: {
-    filename: 'bundle.js',
-    path: path.resolve(__dirname, './dist')
+    path: path.join(__dirname, 'build'),
+    libraryTarget: 'amd',
+    filename: '[name].bundle.js',
   },
   module: {
     rules: [
       {
         test: /\.js?$/,
-        exclude: [path.resolve(__dirname, 'node_modules')],
+        exclude: [path.join(__dirname, 'node_modules')],
         loader: 'babel-loader',
       },
     ]

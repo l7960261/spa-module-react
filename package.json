@@ -11,7 +11,8 @@
   "license": "ISC",
   "dependencies": {
     "react": "^16.8.6",
-    "react-dom": "^16.8.6"
+    "react-dom": "^16.8.6",
+    "single-spa-react": "^2.10.1"
   },
   "devDependencies": {
     "@babel/core": "^7.4.5",
