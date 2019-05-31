@@ -1,3 +1,3 @@
-[![Build Status](https://travis-ci.com/l7960261/spa-module-react.svg?branch=master)](https://travis-ci.com/l7960261/spa-module-react)
+[![Build Status](https://travis-ci.com/l7960261/spa-module-react.svg?branch=master)](https://travis-ci.com/l7960261/spa-module-react) [![Dependency Status](https://david-dm.org/l7960261/spa-module-react.svg)](https://david-dm.org/l7960261/spa-module-react) [![devDependency Status](https://david-dm.org/l7960261/spa-module-react/dev-status.svg)](https://david-dm.org/l7960261/spa-module-react?type=dev)
 
 SpaModuleReact
