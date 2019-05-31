@@ -3,6 +3,8 @@ import { Link } from "@reach/router"
 
 export default class Root extends React.Component {
 
+  componentDidCatch(error, info) { }
+
   render() {
     return (<div>
       <nav>
