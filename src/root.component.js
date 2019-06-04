@@ -9,8 +9,9 @@ export default class Root extends React.Component {
     return (<div>
       <nav>
         <Link to="/">Home</Link> |{" "}
-        <Link to="/app1">App1</Link> |{" "}
-        <Link to="/app2">App2</Link>
+        <Link to="/ng1">AngularJs</Link> |{" "}
+        <Link to="/ng1-mixin">AngularJs with legacy module</Link>
+        <Link to="/angular7">Angular7</Link>
       </nav>
     </div>)
   }
